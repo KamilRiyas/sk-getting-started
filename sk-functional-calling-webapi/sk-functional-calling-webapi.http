@@ -1,0 +1,9 @@
+@sk_functional_calling_webapi_HostAddress = http://localhost:5279
+
+POST {{sk_functional_calling_webapi_HostAddress}}/api/chat/
+Content-Type: application/json
+{
+  "query": "Get the list of lights"
+}
+
+###

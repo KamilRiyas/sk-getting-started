@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sk-console", "sk-console\sk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sk-webapi", "sk-webapi\sk-webapi.csproj", "{B1F1D57B-9AED-4054-9D44-5FD889432CA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sk-functional-calling-webapi", "sk-functional-calling-webapi\sk-functional-calling-webapi.csproj", "{8D8D7552-377F-47A8-9AA3-2BDFAF9F556D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{B1F1D57B-9AED-4054-9D44-5FD889432CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1F1D57B-9AED-4054-9D44-5FD889432CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1F1D57B-9AED-4054-9D44-5FD889432CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8D7552-377F-47A8-9AA3-2BDFAF9F556D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8D7552-377F-47A8-9AA3-2BDFAF9F556D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8D7552-377F-47A8-9AA3-2BDFAF9F556D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8D7552-377F-47A8-9AA3-2BDFAF9F556D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E4E19A2-97DE-4EFE-9350-96E5F5B991A5}
 	EndGlobalSection
 EndGlobal
