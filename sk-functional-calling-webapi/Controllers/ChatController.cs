@@ -22,7 +22,7 @@ public class ChatController : ControllerBase
     [HttpPost]
     public async Task<string> GetResponse(UserChatRequest chatRequest)
     {
-        var chatCompletionService = _kernel.GetRequiredService<IChatCompletionService>();
+        //var chatCompletionService = _kernel.GetRequiredService<IChatCompletionService>();
         if (chatRequest.query != null)
         {
             PromptExecutionSettings settings = new() { FunctionChoiceBehavior = FunctionChoiceBehavior.Auto() };
